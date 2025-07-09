@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Demon Slayer Characters</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      justify-items: center;
+    }
+
+    .card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      margin-bottom: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    h2 {
+      margin: 0;
+      color: #555;
+    }
+    .here{
+        background-color: red;
+    }
+    #here{
+        background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Demon Slayer Characters</h1>
+  <div class="grid">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAkNnVUwlzCTKx5V9ikCyfcqF3r294kNUtoQ&s" alt="Tanjiro Kamado">
+      <h2>Tanjiro Kamado</h2>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLU75W1-KVF06XNJx9f2DV50OUkt2V_7RIQ&s" alt="Nezuko Kamado">
+      <h2>Nezuko Kamado</h2>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvQaPN9dbhT5tgwVPu3YGfubiDj1LgQVhGWg&s" alt="Zenitsu Agatsuma">
+      <h2>Zenitsu Agatsuma</h2>
+    </div>
+
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrB1rHPUVMAUzMlF0WSavxRdtds0PHmB3tYMD06AuU9tMeWtk4zkxkDqyNhjHLqlTqzfc&usqp=CAU" alt="Inosuke Hashibira">
+      <h2>Inosuke Hashibira</h2>
+    </div>
+  </div>
+
+  <div>
+    <div>
+        <p class="paragraph here">Demon</p>
+        <p class="paragraph">Demon</p>
+        <p id="here" class="paragraph">Demon</p>
+        <p class="paragraph">Demon</p>
+        <p class="paragraph">Demon</p>
+        <p class="paragraph">Demon</p>
+        <p class="paragraph">Demon</p>
+    </div>
+  </div>
+
+  <form>
+    <input type="text" name="name" class="name" placeholder="Enter name" />
+    <input type="number" name="age" class="age" placeholder="Enter age" />
+    <button type="submit" name="button" class="button">Submit</button>
+  </form>
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
